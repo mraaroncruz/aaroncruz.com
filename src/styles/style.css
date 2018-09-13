@@ -1,0 +1,99 @@
+/*
+ Theme Name:     aaroncruz
+ Author:         Aaron
+ Author URI:     http://aaroncruz.com
+ Template:       Divi
+ Version:        0.0.1
+ Description:   A Divi Child Theme
+ Wordpress Version: 4.7.5
+*/
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */
+
+
+.m_head-container {
+  margin: 0 auto 60px;
+  position: relative;
+  width: 450px;
+}
+
+.m_head-container h1 {
+  color: hotpink;
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-transform: lowercase;
+  z-index: 1;
+}
+
+.m_head-container #my-head img {
+  position: absolute;
+  left: 170px;
+  top: -60px;
+  height: 249px;
+  width: 163px;
+}
+
+.widget_nav_menu .widgettitle {
+  display: none;
+}
+
+.menu-top-nav-container .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+  .m_head-container {
+    width: 310px;
+  }
+
+  .menu-top-nav-container .menu {
+    width: 310px;
+  }
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+  left: 72px !important;
+}
