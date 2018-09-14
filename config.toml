@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://mraaroncruz.github.io/aaroncruz.com/"
 languageCode = "en-us"
 title = "Hugo Stellar Theme"
 theme = "hugo-stellar-theme"
