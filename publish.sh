@@ -8,9 +8,9 @@
 # git push origin gh-pages
 # git checkout master
 
-DIR=$(dirname "$0")
+#DIR=$(dirname "$0")
 
-cd $DIR/..
+#cd $DIR/..
 
 if [[ $(git status -s) ]]
 then
