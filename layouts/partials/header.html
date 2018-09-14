@@ -1,16 +1,20 @@
-<header id="header" class="alt">
-  {{ if .Site.Params.header.image }}
-    <span class="logo"><img src="{{ .Site.Params.header.image }}" alt="" /></span>
-  {{ end }}
-  <h1>{{ .Site.Params.header.title }}</h1>
-  <p> {{ .Site.Params.header.description | markdownify}}
-  </p>
+<!-- <h1>{{ .Site.Params.header.title }}</h1> -->
+<header class="mt-20 mb-32">
+  <div class="m_head-container">
+    <h1 id="aaroncruz">aaron<br>cruz</h1>
+    <div id="my-head">
+      <img src="{{ .Site.BaseURL }}images/head.png" alt="" />
+    </div>
+  </div>
 </header>
 
+<section class="container px-20 w-1/2">
+  <h1 class="header-font mb-6">I build chatbots and modern web applications using<br>Ruby and Elixir</h1>
+  <p class="text-lg">I also really like working on blockchain projects and tons of other stuff.</p>
+</section>
 
-<article class="m_head-container">
-  <h1 id="aaroncruz">aaron<br>cruz</h1>
-  <div id="my-head">
-    <img src="{{ .Site.BaseURL }}images/head.png" alt="" />
-  </div>
-</article>
+<hr>
+
+<section id="projects">
+
+</section>

@@ -1,17 +1,3 @@
-/*
- Theme Name:     aaroncruz
- Author:         Aaron
- Author URI:     http://aaroncruz.com
- Template:       Divi
- Version:        0.0.1
- Description:   A Divi Child Theme
- Wordpress Version: 4.7.5
-*/
-
-
-/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */
-
-
 .m_head-container {
   margin: 0 auto 60px;
   position: relative;
@@ -33,6 +19,7 @@
 
 .m_head-container #my-head img {
   position: absolute;
+  opacity: 0;
   left: 170px;
   top: -60px;
   height: 249px;
@@ -96,4 +83,14 @@
   -o-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
   left: 72px !important;
+}
+
+.header-font {
+  /* font-family: Monserrat, Georgia; */
+  font-family: "Open Sans", Arial;
+  font-weight: 300;
+}
+
+p, li, a {
+  font-family: "Lato", Arial;
 }

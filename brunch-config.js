@@ -7,5 +7,11 @@ module.exports = {
   files: {
     javascripts: {joinTo: 'app.js'},
     stylesheets: {joinTo: 'app.css'}
+  },
+  npm: {
+    enabled: true,
+    styles: {
+      'tailwindcss': ["dist/tailwind.min.css"]
+    }
   }
 }
